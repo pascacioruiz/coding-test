@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Resume</string>
+
+    <string name="preview_fragment_name_holder">%1$s %2$s</string>
+    <string name="preview_fragment_experience_holder">%1$s %2$s</string>
+    <string name="preview_fragment_experience">Experience</string>
+    <string name="preview_fragment_email">email</string>
+    <string name="preview_fragment_phone">phone number</string>
+    <string name="preview_fragment_website">website</string>
+
+    <string name="loading_dialog_title">loading&#8230;</string>
+
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_positive_response">Okay</string>
+</resources>

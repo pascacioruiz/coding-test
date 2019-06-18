@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dialogInnerMargin"
+            android:layout_marginEnd="@dimen/dialogInnerMargin"
+            android:layout_marginTop="@dimen/dialogHorizontalMargin"
+            android:layout_marginLeft="@dimen/dialogOuterMargin"
+            android:layout_marginStart="@dimen/dialogOuterMargin"
+            android:layout_marginBottom="@dimen/dialogHorizontalMargin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/loading_text"/>
+
+    <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_dialog_title"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/textSize"
+            android:layout_marginLeft="@dimen/dialogInnerMargin"
+            android:layout_marginStart="@dimen/dialogInnerMargin"
+            android:layout_marginTop="@dimen/dialogHorizontalMargin"
+            android:layout_marginRight="@dimen/dialogOuterMargin"
+            android:layout_marginEnd="@dimen/dialogOuterMargin"
+            android:layout_marginBottom="@dimen/dialogHorizontalMargin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/progress_bar"
+            app:layout_constraintHorizontal_bias="0.5"/>
+
+</android.support.constraint.ConstraintLayout>
